@@ -21,8 +21,8 @@ The Service Layer known as the Customer Service implementation in my application
 * Singleton
 * DAO
 
-**Resources Used**
-[Spring Docs](https://spring.io/docs/reference)
-[Hibernate Docs](http://hibernate.org/orm/documentation/5.3/)
+**Resources Used:**
+*[Spring Docs](https://spring.io/docs/reference)
+*[Hibernate Docs](http://hibernate.org/orm/documentation/5.3/)
 
 
