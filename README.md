@@ -27,7 +27,7 @@ The application is run locally on the open source Apache Tomcat server, which is
 **Resources Used:**
 *[Spring Docs and JAR files](https://spring.io/docs/reference)
 *[Hibernate Docs and JAR files](http://hibernate.org/orm/documentation/5.3/)
-*[Apache Tomcat connecters and JAR files](http://hibernate.org/orm/documentation/5.3/)
+*[Apache Tomcat connecters and JAR files](http://tomcat.apache.org/)
 
 
 
