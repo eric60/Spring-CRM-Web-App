@@ -15,7 +15,7 @@ import com.application.springdemo.dao.CustomerDAO;
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {
 
-	// need to inject the session factory dependency/java bean that was configured from our xml
+	// need to inject the session factory dependency/java bean that was configured from our XML
 	@Autowired
 	private SessionFactory sessionFactory;
 	
@@ -25,12 +25,17 @@ public class CustomerDAOImpl implements CustomerDAO {
 		// create a SQL query
 		// get the query
 		// execute query and get the list
-		// return the list
-		
+		// return the list	
 		Session currentSession = sessionFactory.getCurrentSession();
 		Query<Customer> theQuery = currentSession.createQuery("from Customer", Customer.class);
 		List<Customer> customerList = theQuery.getResultList();
 		return customerList;
+	}
+
+	@Override
+	public void saveCustomer(Customer theCustomer) {
+		Session currSession = sessionFactory.getCurrentSession();
+		currSession.save(theCustomer);	
 	}
 
 }
