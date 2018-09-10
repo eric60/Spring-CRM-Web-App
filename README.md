@@ -13,6 +13,9 @@ By using Dependency Injection(DI) through the Spring Framework.I can easily inje
 The backend database processing uses Hibernate ORM, the Java Persistence API (JPA), and SQL to model Java classes as entities to map to our MySQL database as well as the Data Access Object (DAO) and Service Layer design patterns to give our Customer Controller class a single streamlined view of all the data I pull together from the SQL database. 
 The Service Layer known as the Customer Service implementation in my application will act as the transaction layer between the Customer Controller and CustomerDAO. This makes it easy to delegate calls to a DAO in the service layer and simplifies the process of extending new Data Access Objects. This architectural style follows the Open-Closed Principle in SOLID OOP. 
 
+### Deployment
+The application is run locally on the open source Apache Tomcat server, which is a Java Servlet Container. 
+
 **Design Patterns Used:** 
 * Model-View-Controller
 * Dependency Injection
@@ -22,7 +25,9 @@ The Service Layer known as the Customer Service implementation in my application
 * DAO
 
 **Resources Used:**
-*[Spring Docs](https://spring.io/docs/reference)
-*[Hibernate Docs](http://hibernate.org/orm/documentation/5.3/)
+*[Spring Docs and JAR files](https://spring.io/docs/reference)
+*[Hibernate Docs and JAR files](http://hibernate.org/orm/documentation/5.3/)
+*[Apache Tomcat connecters and JAR files](http://hibernate.org/orm/documentation/5.3/)
+
 
 
