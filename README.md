@@ -1,7 +1,7 @@
 # Spring-CRM-Web-App
 
 
-This Spring MVC and Hibernate Web Application models a Customer Relationship Management (CRM) System, supporting CRUD operations.
+This Spring MVC and Hibernate Web Application models a Customer Relationship Management (CRM) System, supporting CRUD operations through a MySQL database.
 
 By using Dependency Injection(DI) through the Spring Framework I can easily inject dependencies such as Data Access Objects (DAO) and Service Layers through my class constructors and fields instead of hardwiring resources. The Spring Framework greatly simplifies the management of dependencies to make building web applications easier.
 
