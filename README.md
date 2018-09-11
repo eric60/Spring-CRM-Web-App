@@ -24,13 +24,18 @@ The Service Layer known as the Customer Service implementation in my application
 ### Deployment
 The application is run locally on the open source Apache Tomcat server, which is a Java Servlet Container. 
 
-**Resources Used:**
-[Spring Docs and JAR files](https://spring.io/docs/reference) 
-![alt text](https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png "Spring Framework")
-[Hibernate Docs and JAR files](http://hibernate.org/orm/documentation/5.3/)
-![alt text](http://198.211.104.161/wp-content/uploads/2014/01/Hibernate-logo.png "Hibernate Framework")
-[Apache Tomcat connecters and JAR files](http://tomcat.apache.org/)
-![alt text](https://www.google.com/search?q=apache+tomcat&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiN2Y6QgrPdAhVITt8KHfjmC3wQ_AUIDygC&biw=1280&bih=698#imgrc=vlMFCEvoNG_F3M: "Apache Tomcat Server")
+### Resources Used
+
+[Spring Docs and JAR files](https://spring.io/docs/reference)</br>
+<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png" width="240" height="80">
+
+[Hibernate Docs and JAR files](http://hibernate.org/orm/documentation/5.3/)</br>
+<img src="http://198.211.104.161/wp-content/uploads/2014/01/Hibernate-logo.png" width="100" height="100">
+
+[Apache Tomcat connecters and JAR files](http://tomcat.apache.org/)</br>
+<img src="https://sdtimes.com/wp-content/uploads/2017/07/tomcat-1.png" width="100" height="100">
+
+
 
 
 
