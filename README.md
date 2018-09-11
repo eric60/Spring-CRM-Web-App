@@ -6,6 +6,14 @@ This Spring MVC and Hibernate Web Application models a Customer Relationship Man
 ### Architecture Design
 The Model-View-Controller architecture of the application seperates the presentation layer from the logic layer, making the application much more maintainable and easier to develop on. The model should be self-contained and be separate from the view and controller. The controller decouples the model from the view, and can connect multiple views to multiple models.
 
+**Design Patterns Used:** 
+* Model-View-Controller
+* Dependency Injection
+* Factory Method
+* Service Layer 
+* Singleton
+* DAO
+
 ### Spring Framework
 By using Dependency Injection(DI) through the Spring Framework.I can easily inject dependencies such as Data Access Objects (DAO) and Service Layers through my class constructors and fields instead of hardwiring resources. DI and the Inversion of Control(IOC) that Spring enforces also makes the application loosely coupled, making it easier to unit test and easier to modify the application without changing multiple things, following the open-closed principle. Overall, I found the Spring Framework greatly simplifies the management of dependencies to make building web applications easier.
 
@@ -15,14 +23,6 @@ The Service Layer known as the Customer Service implementation in my application
 
 ### Deployment
 The application is run locally on the open source Apache Tomcat server, which is a Java Servlet Container. 
-
-**Design Patterns Used:** 
-* Model-View-Controller
-* Dependency Injection
-* Factory Method
-* Service Layer 
-* Singleton
-* DAO
 
 **Resources Used:**
 *[Spring Docs and JAR files](https://spring.io/docs/reference)
