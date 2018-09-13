@@ -1,5 +1,15 @@
 # Spring CRM Web App - Ticket Master
 
+### Table of Contents 
+* Application Purpose
+* Architecture Design
+
+   * Design Patterns Used
+* Spring Framework
+   * Spring Modules Used
+* Hibernate Framework
+* Deployment
+* Resources Used
 ### Application Purpose
 This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for customers with tickets to a venue, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing ticket customers/buyers, and eventually ticket sellers which will be implementated later on.
 
@@ -16,6 +26,9 @@ The Model-View-Controller architecture of the application seperates the presenta
 
 ### Spring Framework
 By using Dependency Injection(DI) through the Spring Framework, I can easily inject dependencies such as Data Access Objects (DAO) and Service Layers through my class constructors and fields instead of hardwiring resources. DI and the Inversion of Control(IOC) that the Spring Container enforces with my defined Java beans makes the application loosely coupled, making the application easier to unit test and modify in the future without changing multiple dependent classes or configurations (this follows the open-closed principle). Overall, I found the Spring Framework greatly simplified the building and management of a web application by abstracting away dependency management and letting you focus on the business logic of the application.
+
+**Spring Modules Used:**
+* Spring Security 
 
 ### Hibernate Framework
 The backend database processing uses Hibernate ORM, the Java Persistence API (JPA), and SQL to model Java classes as entities to map to our MySQL database as well as the Data Access Object (DAO) and Service Layer design patterns to give our Customer Controller class a single streamlined view of all the model data I pull from the SQL database through one to one mappings or one to many mappings.
@@ -36,6 +49,9 @@ The application is run locally on the open source Apache Tomcat server, which is
 
 <a href="http://tomcat.apache.org/" target="_blank">Apache Tomcat Connector JAR Files</a></br>
 <img src="https://sdtimes.com/wp-content/uploads/2017/07/tomcat-1.png" width="100" height="100">
+
+<a href="https://www.mysql.com/downloads/" target="_blank">Oracle MySQL Database Download</a></br>
+<img src="https://cdn.worldvectorlogo.com/logos/mysql.svg" width="150" height="150">
 
 
 
