@@ -1,4 +1,5 @@
-# Ticket Master - A Spring and Hibernate Customer Relationship Management Web Application 
+# Ticket Master 
+A Spring and Hibernate Customer Relationship Management Web Application 
 
 ### Table of Contents 
 * Application Purpose
@@ -52,9 +53,3 @@ The application is run locally on the open source Apache Tomcat server, which is
 
 <a href="https://www.mysql.com/downloads/" target="_blank">Oracle MySQL Database Download</a></br>
 <img src="https://cdn.worldvectorlogo.com/logos/mysql.svg" width="150" height="150">
-
-
-
-
-
-
