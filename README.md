@@ -1,4 +1,4 @@
-# Spring CRM Web App - Ticket Master
+# Ticket Master - A Spring and Hibernate Customer Relationship Management Web Application 
 
 ### Table of Contents 
 * Application Purpose
