@@ -11,8 +11,9 @@ A Spring and Hibernate Customer Relationship Management Web Application
 * Hibernate Framework
 * Deployment
 * Resources Used
+
 ### Application Purpose
-This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for customers with tickets to a venue, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing ticket customers/buyers, and eventually ticket sellers which will be implementated later on.
+This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for ticket customers, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing the ticket customers. The business logic for ticket sellers will be implemented later on, and I hope the application will model that of a dynamic marketplace for tickets to venues like concerts, live shows, and sports games.
 
 ### Architecture Design
 The Model-View-Controller architecture of the application seperates the presentation layer from the logic layer, making the application much more maintainable and easier to develop on. The model should be self-contained and be separate from the view and controller. The controller decouples the model from the view, and can connect multiple views to multiple models.
