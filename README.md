@@ -1,5 +1,7 @@
 # Ticket Master 
-A Spring and Hibernate Customer Relationship Management Web Application 
+
+### Description
+This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for ticket customers, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing the ticket customers. The business logic for ticket sellers will be implemented later on, and I hope the application will model that of a dynamic marketplace for tickets to venues like concerts, live shows, and sports games.
 
 ### Overview
 * **Description**
@@ -10,9 +12,6 @@ A Spring and Hibernate Customer Relationship Management Web Application
 * **Hibernate Framework**
 * **Deployment**
 * **Resources Used**
-
-### Description
-This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for ticket customers, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing the ticket customers. The business logic for ticket sellers will be implemented later on, and I hope the application will model that of a dynamic marketplace for tickets to venues like concerts, live shows, and sports games.
 
 ### System Design
 The Model-View-Controller architecture of the application seperates the presentation layer from the logic layer, making the application much more maintainable and easier to develop on. The model should be self-contained and be separate from the view and controller. The controller decouples the model from the view, and can connect multiple views to multiple models.
@@ -40,7 +39,7 @@ I define the Java beans for my JDBC C3PO connection pooling, session factory, an
 ### Deployment
 The application is run locally on the open source Apache Tomcat server, which is a Java Servlet Container. I specify the Dispatcher servlet which handles the HTTP requests and responses and the return of my JSP in my web.xml configurations, as well as my bean view resolver.
 
-### Resources 
+### Resources Used
 * <a href="https://spring.io/docs/reference" target="_blank">Spring Docs and JAR Files</a></br>
 * <a href="http://hibernate.org/orm/documentation/5.3/" target="_blank">Hibernate Docs and JAR Files</a></br>
 * <a href="http://tomcat.apache.org/" target="_blank">Apache Tomcat Connector JAR Files</a></br>
