@@ -44,7 +44,6 @@ The application is run locally on the open source Apache Tomcat server, which is
 ### Resources Used
 
 <a href="https://spring.io/docs/reference" target="_blank">Spring Docs and JAR Files</a></br>
-<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png" width="240" height="80">
 
 <a href="http://hibernate.org/orm/documentation/5.3/" target="_blank">Hibernate Docs and JAR Files</a></br>
 <img src="http://198.211.104.161/wp-content/uploads/2014/01/Hibernate-logo.png" width="100" height="100">
