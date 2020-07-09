@@ -2,7 +2,7 @@
 A Spring and Hibernate Customer Relationship Management Web Application 
 
 ### Overview
-* **Application Purpose**
+* **Description**
 * **System Design**
    * **Design Patterns**
 * **Spring Framework**
@@ -11,7 +11,7 @@ A Spring and Hibernate Customer Relationship Management Web Application
 * **Deployment**
 * **Resources Used**
 
-### Application Purpose
+### Description
 This Spring MVC and Hibernate Web Application models a Customer Relationship Management(CRM) System for ticket customers, supporting CRUD operations through a MySQL database. Customized constraints makes the application unique in dealing with the data representing the ticket customers. The business logic for ticket sellers will be implemented later on, and I hope the application will model that of a dynamic marketplace for tickets to venues like concerts, live shows, and sports games.
 
 ### System Design
